@@ -1,0 +1,25 @@
+.tab_container {
+  flex: 1;
+  color: #a72733;
+  background-color: #fff;
+  padding: 8px 0;
+  font-weight: 700;
+  border: 0;
+  border-left: 2px solid #a72733;
+  font-size: 20px;
+}
+.tab_container:first-child {
+  border-left: 0;
+}
+
+.tab_container_active {
+  background-color: #a72733;
+  color: #fff;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .tab_container {
+    font-size: 14px;
+  }
+}
